@@ -1,0 +1,17 @@
+EGENVA social preview update
+
+Applied approved changes:
+1. Fix 1 approved: logo enlarged and rebalanced with the EGENVA title in the social preview image.
+2. Fix 2 approved: bottom badge changed to 'Launch in Preparation' and made clearer/readable.
+
+Other final improvements applied:
+- Cleaner social preview composition
+- Improved title/description consistency
+- Updated OG image at assets/og-image.png
+- WhatsApp / social cards now use the improved image and metadata
+
+Deployment:
+- Upload the full bundle contents to the site root
+- Clear cache/CDN
+- Re-share the URL after cache refresh
+- WhatsApp may cache old preview briefly; using a fresh share or Meta debugger later can refresh it
