@@ -24,6 +24,11 @@
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <link rel="canonical" href="https://egenva.com/" />
 
+  <!-- Value-add: preload key brand and social assets without changing visible design -->
+  <link rel="preload" as="image" href="assets/egenva-logo-black-transparent.png" />
+  <link rel="preload" as="image" href="assets/egenva-logo-white-transparent.png" />
+
+
   <!-- Final approved website identity icons:
        White / light background -> black line EGENVA logo.
        Black / dark background -> white line EGENVA logo.
@@ -39,6 +44,7 @@
 
 
   <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_IN" />
   <meta property="og:title" content="EGENVA | Governed Intelligence for the AGI Era" />
   <meta property="og:description" content="Governance-first AI infrastructure for controlled execution, accountable automation, evidence-grounded decisions, and human-safe AI assistance." />
   <meta property="og:url" content="https://egenva.com/" />
@@ -52,7 +58,7 @@
   <meta name="twitter:title" content="EGENVA | Governed Intelligence for the AGI Era" />
   <meta name="twitter:description" content="Governance-first AI infrastructure for controlled execution, accountable automation, evidence-grounded decisions, and human-safe AI assistance." />
   <meta name="twitter:image" content="https://egenva.com/assets/og-image.png" />
-  <meta name="theme-color" content="#000000" />
+  <meta name="theme-color" content="#ffffff" />
 
   <script type="application/ld+json">
   {
@@ -491,6 +497,9 @@
       .founder-photo { max-width: 320px; width: 100%; margin: 0 auto; aspect-ratio: 2 / 3; }
     }
   </style>
+
+  <!-- EGENVA_VALUE_ADD_SCHEMA_V1: Search/AI metadata only; no visible design change -->
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"FAQPage","@id":"https://egenva.com/#faq-value-add","name":"EGENVA public pre-launch FAQ","mainEntity":[{"@type":"Question","name":"What is EGENVA?","acceptedAnswer":{"@type":"Answer","text":"EGENVA PRIVATE LIMITED is building an AGI-oriented governed AI Assistant platform for business execution, operations support, evidence-grounded decisions, and human-safe work assistance."}},{"@type":"Question","name":"Is EGENVA publicly launched now?","acceptedAnswer":{"@type":"Answer","text":"EGENVA is currently in public pre-launch website and launch preparation stage. The website does not activate login, pricing, payment, public SaaS onboarding, or production runtime."}},{"@type":"Question","name":"Does EGENVA claim to have deployed AGI or ASI?","acceptedAnswer":{"@type":"Answer","text":"No. EGENVA describes an AGI-oriented foundation, AGI-era readiness, and long-term advanced intelligence direction. The public website does not claim deployed AGI or ASI capability."}},{"@type":"Question","name":"Who is EGENVA for?","acceptedAnswer":{"@type":"Answer","text":"EGENVA is being positioned for founders, business teams, enterprise teams, operations users, institutions, and teams that need governed AI assistance for real-world work."}},{"@type":"Question","name":"How can investors or enterprises contact EGENVA?","acceptedAnswer":{"@type":"Answer","text":"Investors, enterprise teams, partners, incubators, and early-access reviewers can contact EGENVA at founders@egenva.com."}}]},{"@type":"SoftwareApplication","@id":"https://egenva.com/#software-application","name":"EGENVA","applicationCategory":"BusinessApplication","applicationSubCategory":"Governed AI Assistant","operatingSystem":"Web","url":"https://egenva.com/","releaseNotes":"Public pre-launch profile website under development. No public SaaS runtime, login, pricing, or payment activation is provided by this page.","description":"AGI-oriented governed AI Assistant platform direction for business execution, operations support, evidence-grounded decisions, policy-controlled workflows, approval gates, and human-safe work assistance.","publisher":{"@id":"https://egenva.com/#organization"},"keywords":["governed AI assistant","business AI assistant","controlled AI execution","evidence-grounded AI","enterprise AI governance","AGI-era readiness"]},{"@type":"ContactPoint","@id":"https://egenva.com/#founder-contact","contactType":"founder, investor, enterprise, partnership, early access","email":"founders@egenva.com","areaServed":["IN","Global"],"availableLanguage":["English","Tamil"]}]}</script>
 </head>
 
 <body>
@@ -501,7 +510,7 @@
   <div class="page">
     <header class="nav" aria-label="Website header">
       <a class="brand" href="#top" aria-label="EGENVA home">
-        <img src="assets/egenva-logo-white.png" alt="EGENVA white transparent logo" />
+        <img src="assets/egenva-logo-white.png" width="255" height="255" alt="EGENVA white transparent logo" />
         <span>EGENVA</span>
       </a>
       <nav class="nav-links" aria-label="Page navigation">

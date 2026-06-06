@@ -1,0 +1,20 @@
+EGENVA original bundle value-added update
+
+The uploaded original bundle was used as the base.
+No visible design, color, font, layout, or format changes were intentionally made.
+
+Value-added updates included:
+1. Added FAQPage JSON-LD for search engines and AI readers.
+2. Added SoftwareApplication JSON-LD with founder-safe pre-launch wording.
+3. Added ContactPoint JSON-LD for investor, enterprise, partnership, and early-access contact.
+4. Added Open Graph locale en_IN.
+5. Added preload hints for key brand images.
+6. Added width/height attributes to known logo images for loading stability.
+7. Updated site.webmanifest to white splash background and white theme color.
+8. Added .well-known/security.txt.
+9. Added humans.txt.
+10. Improved robots.txt.
+11. Improved sitemap.xml with lastmod/changefreq/priority.
+
+Governance note:
+These changes are static metadata/package improvements only. They do not activate runtime systems, authentication, pricing, public SaaS onboarding, execution pathways, reverse-learning, self-repair, or AGI/ASI capability.

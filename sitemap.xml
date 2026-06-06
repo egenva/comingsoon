@@ -2,19 +2,25 @@
 <!--
   File: sitemap.xml
   Project: EGENVA
-  Purpose: Search engine sitemap for static pre-launch website.
+  Purpose: Search engine sitemap for static public pre-launch website.
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://egenva.com/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://egenva.com/privacy.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://egenva.com/terms.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
 </urlset>
