@@ -1,47 +1,26 @@
-# EGENVA Public Website v5
+# EGENVA v9 AGI Assistant Business Bundle
 
-Static pre-launch website package for EGENVA PRIVATE LIMITED.
+Static public pre-launch website bundle for EGENVA PRIVATE LIMITED.
 
-## Files
-- `index.html` — main public profile and coming-soon page
-- `privacy.html` — basic static privacy notice
-- `terms.html` — basic static terms notice
-- `robots.txt` — search crawler instructions
-- `sitemap.xml` — search engine sitemap
-- `assets/` — logo, founder photos, favicon, and social preview image
-
-## Deployment
-Upload all files and folders to the web root of `egenva.com`.
+## v9 positioning update
+- Strong top notice: Coming Soon — Website Under Development.
+- AGI is visible again as AGI-oriented foundation / AGI-era direction.
+- Public explanation remains clear: EGENVA works as an AI Assistant for business and real-world work.
+- Added simple work-assistance diagram.
+- Added plain-language explanation: not a magic brain, not random guessing, not deployed AGI/ASI claim.
+- Kept light business-first design and final icon system.
 
 ## Governance note
-This package is static marketing/profile content only. It does not activate authentication, pricing, public SaaS onboarding, product runtime, AGI capability, or data collection.
+This is a static public website package only. It does not activate runtime systems, authentication, pricing, SaaS onboarding, autonomous execution, reverse-learning, self-repair, deployed AGI, or deployed ASI capability.
 
-## EGENVA finalc approved identity update
+## Deploy
+Upload the full folder contents to the website root.
 
-EGENVA finalc complete bundle
 
-Included final rule:
-- White / light background -> black line EGENVA logo
-- Black / dark background -> white line EGENVA logo
-- Favicon / browser / Google-style icon -> Option C +20 approved size
-
-Included root icon files:
-- favicon.ico
-- favicon-16x16.png
-- favicon-32x32.png
-- favicon-48x48.png
-- apple-touch-icon.png
-- android-chrome-192x192.png
-- android-chrome-512x512.png
-- site.webmanifest
-
-Deployment:
-1. Upload the complete contents of this folder to the website root.
-2. Do not upload only the /assets folder. Root icon files must remain in the root.
-3. Keep /assets/ exactly as included.
-4. Clear hosting/CDN/browser cache after deployment.
-5. Google/search favicon refresh may take time after recrawl.
-
-Governance note:
-This update changes only static identity assets and HTML metadata.
-It does not activate runtime systems, authentication, pricing, SaaS onboarding, execution pathways, or AGI capability.
+## v9.1 mobile improvement update
+- Improved mobile first-screen spacing and readability.
+- Added compact mobile summary chips: Coming soon, AGI-oriented, AI Assistant.
+- Reduced oversized mobile typography and improved touch-button spacing.
+- Improved mobile diagram spacing and vertical arrows.
+- Kept AGI-oriented assistant positioning and governance-safe wording.
+- Kept white PWA splash screen and Option C +20 favicon identity.
