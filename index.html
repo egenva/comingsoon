@@ -496,6 +496,35 @@
       .legal-box, .contact-panel, .ai-readable, .vision-box, .faq-box { padding: 22px; border-radius: 24px; }
       .founder-photo { max-width: 320px; width: 100%; margin: 0 auto; aspect-ratio: 2 / 3; }
     }
+
+    /* FINAL_HERO_POLISH_ONLY:
+       Founder-approved visual cleanup.
+       Removes eyebrow badge/dot and adjusts desktop hero card alignment only.
+       No content, mobile, runtime, legal, certificate, color, or font changes. */
+    .eyebrow {
+      gap: 0;
+      border: 0;
+      border-radius: 0;
+      padding: 0;
+      background: transparent;
+      box-shadow: none;
+    }
+    .eyebrow::before {
+      content: none;
+      display: none;
+    }
+    @media (min-width: 901px) {
+      .hero {
+        align-items: start;
+      }
+      .hero-card {
+        align-self: start;
+        margin-top: 8px;
+      }
+      .main-logo {
+        transform: translateY(-18px);
+      }
+    }
   </style>
 
   <!-- EGENVA_VALUE_ADD_SCHEMA_V1: Search/AI metadata only; no visible design change -->
@@ -542,7 +571,7 @@
           <div class="actions">
             <a class="button primary" href="mailto:founders@egenva.com?subject=Investor%20Inquiry%20-%20EGENVA">Investor Inquiry</a>
             <a class="button" href="mailto:founders@egenva.com?subject=Enterprise%20or%20Early%20Access%20Inquiry%20-%20EGENVA">Request Early Access</a>
-            <a class="button" href="https://www.linkedin.com/company/egenva/" target="_blank" rel="noopener">LinkedIn Company Page</a>
+            <a class="button" href="https://www.linkedin.com/company/egenva/" target="_blank" rel="noopener noreferrer">LinkedIn Company Page</a>
           </div>
         </div>
 
@@ -598,7 +627,7 @@
                 Public role: founder leadership, investor conversations, enterprise readiness, product vision, and accountable AI execution direction.
               </p>
               <div class="social-row">
-                <a class="small-link" href="https://www.linkedin.com/in/venkategenva" target="_blank" rel="noopener">LinkedIn Profile</a>
+                <a class="small-link" href="https://www.linkedin.com/in/venkategenva" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
                 <a class="small-link" href="mailto:founders@egenva.com?subject=Founder%20Inquiry%20-%20Venkatesh%20Selvaraj">Contact Founder</a>
               </div>
             </div>
@@ -616,7 +645,7 @@
                 Public role: co-founder leadership, company governance, operational support, and long-term institutional stability.
               </p>
               <div class="social-row">
-                <a class="small-link" href="https://www.linkedin.com/in/ganesan-selvaraj-8632263a8" target="_blank" rel="noopener">LinkedIn Profile</a>
+                <a class="small-link" href="https://www.linkedin.com/in/ganesan-selvaraj-8632263a8" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
                 <a class="small-link" href="mailto:founders@egenva.com?subject=Co-founder%20Inquiry%20-%20Ganesan%20Selvaraj">Contact Co-founder</a>
               </div>
             </div>
@@ -809,8 +838,8 @@
             <div class="legal-item"><span class="label">PAN</span><span class="value">AAJCE3461D</span></div>
             <div class="legal-item"><span class="label">TAN</span><span class="value">CMBE05915A</span></div>
             <div class="legal-item full"><span class="label">Registered Office Address</span><span class="value">D.No. 3/62D, Sencheri Pirivu, Poorandampalayam, Pollachi - Palladam Main Road, Vadambacheri, Coimbatore, Tamil Nadu - 641669, India</span></div>
-            <div class="legal-item"><span class="label">LinkedIn Company Page</span><a class="value" href="https://www.linkedin.com/company/egenva/" target="_blank" rel="noopener">linkedin.com/company/egenva</a></div>
-            <div class="legal-item"><span class="label">Website</span><a class="value" href="https://egenva.com" target="_blank" rel="noopener">egenva.com</a></div>
+            <div class="legal-item"><span class="label">LinkedIn Company Page</span><a class="value" href="https://www.linkedin.com/company/egenva/" target="_blank" rel="noopener noreferrer">linkedin.com/company/egenva</a></div>
+            <div class="legal-item"><span class="label">Website</span><a class="value" href="https://egenva.com" target="_blank" rel="noopener noreferrer">egenva.com</a></div>
             <div class="legal-item"><span class="label">DPIIT Startup Recognition</span><span class="value">Certificate No. DIPP269117</span></div>
             <div class="legal-item"><span class="label">DPIIT Issue / Validity</span><span class="value">Issued 25-06-2026 · Valid up to 15-12-2035</span></div>
             <div class="legal-item"><span class="label">Startup India Recognition Profile</span><span class="value">Recognized by DPIIT · Industry: IT Services · Sector: Product Development</span></div>
@@ -830,7 +859,7 @@
           </div>
           <div class="actions" style="margin-top: 0;">
             <a class="button primary" href="mailto:founders@egenva.com?subject=EGENVA%20Website%20Inquiry">founders@egenva.com</a>
-            <a class="button" href="https://www.linkedin.com/company/egenva/" target="_blank" rel="noopener">Follow EGENVA</a>
+            <a class="button" href="https://www.linkedin.com/company/egenva/" target="_blank" rel="noopener noreferrer">Follow EGENVA</a>
           </div>
         </div>
       </section>
@@ -846,7 +875,7 @@
           <a href="privacy.html">Privacy Policy</a>
           <a href="terms.html">Terms of Use</a>
           <a href="mailto:founders@egenva.com">Contact</a>
-          <a href="https://www.linkedin.com/company/egenva/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.linkedin.com/company/egenva/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
       </div>
     </footer>
